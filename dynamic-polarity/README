@@ -1,0 +1,33 @@
+This folder contains code for dynamically obtaining polarity annotations via
+the Stanford CoreNLP NatLog system.  init.lisp contains the commands that are
+needed to properly load the functions and dependencies given proper
+installation of dependencies.
+
+The main function for external use is 'get-segment-polarity' which takes a
+segement of the ulf formula of interest, its parent, and the fullulf.  This
+function uses the exact references to these for matching, so the segment and
+parent must actually be referentially the same lists as in the full ulf
+formula.  You can look at the end of dynamic-polarity.lisp for examples of uses
+and expected output.
+
+In order faster speeds, you can call 'run-natlog' on the list of strings before
+the experiments.  The default behavior of 'run-natlog' is to memoize (i.e. save
+results from previous runs) so future calls are faster.  'run-natlog' has a 
+large overhead for unmemoized calls so calling it with a big batch ahead of time
+for all the sentences that will be used is faster.
+  'run-natlog-ulfs' is the corresponding is the variant for ULFs.
+
+Before using the system the first time, you'll need to run get-jars.sh.  This
+will download the necessary jar files for the system.
+
+Dependencies:
+  quicklisp - see https://www.quicklisp.org for download instructions
+  Java 8
+
+The init file needs the following lines (with *dynamic-polarity-dir* set appropriately).
+
+(ql:quickload :cl-strings)
+(ql:quickload :alexandria)
+(setq *dynamic-polarity-dir* "dynamic-polarity")
+(load (concatenate 'string *dynamic-polarity-dir* "/dynamic-polarity.lisp"))
+

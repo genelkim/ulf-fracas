@@ -1,0 +1,246 @@
+{
+  "__comments": "List of non-subsective adjectives from A Dictionary of Nonsubsective Adjectives by Neha Nayak, Mark Kowarsky, Gabor Angeli, Christopher D. Manning (2014).",
+  "__TODO": "Add definition, source, subclass an properties for more refined usage. Also, include info on taxonoomically subsective adjectives.",
+  "data": [
+    { 
+      "word": "alleged",
+      "wn_senses": []
+    },
+    { 
+      "word": "anti-",
+      "wn_senses": []
+    },
+    { 
+      "word": "believed",
+      "wn_senses": []
+    },
+    { 
+      "word": "debatable",
+      "wn_senses": [1, 3]
+    },
+    { 
+      "word": "disputed",
+      "wn_senses": []
+    },
+    { 
+      "word": "dubious",
+      "wn_senses": [1, 2]
+    },
+    { 
+      "word": "hypothetical",
+      "wn_senses": []
+    },
+    { 
+      "word": "impossible",
+      "wn_senses": [1,2]
+    },
+    { 
+      "word": "improbable",
+      "wn_senses": [1,2]
+    },
+    { 
+      "word": "plausible",
+      "wn_senses": []
+    },
+    { 
+      "word": "putative",
+      "wn_senses": []
+    },
+    { 
+      "word": "questionable",
+      "wn_senses": []
+    },
+    { 
+      "word": "so-called",
+      "wn_senses": []
+    },
+    { 
+      "word": "supposed",
+      "wn_senses": [2, 3, 4]
+    },
+    { 
+      "word": "suspicious",
+      "wn_senses": []
+    },
+    { 
+      "word": "theoretical",
+      "wn_senses": []
+    },
+    { 
+      "word": "uncertain",
+      "wn_senses": [2, 3, 4]
+    },
+    { 
+      "word": "unlikely",
+      "wn_senses": [3]
+    },
+    { 
+      "word": "would-be",
+      "wn_senses": []
+    },
+    { 
+      "word": "doubtful",
+      "wn_senses": [1]
+    },
+    { 
+      "word": "apparent",
+      "wn_senses": [2]
+    },
+    { 
+      "word": "arguable",
+      "wn_senses": [1]
+    },
+    { 
+      "word": "assumed",
+      "wn_senses": []
+    },
+    { 
+      "word": "likely",
+      "wn_senses": []
+    },
+    { 
+      "word": "ostensible",
+      "wn_senses": []
+    },
+    { 
+      "word": "possible",
+      "wn_senses": [2]
+    },
+    { 
+      "word": "potential",
+      "wn_senses": []
+    },
+    { 
+      "word": "predicted",
+      "wn_senses": []
+    },
+    { 
+      "word": "presumed",
+      "wn_senses": []
+    },
+    { 
+      "word": "probable",
+      "wn_senses": []
+    },
+    { 
+      "word": "seeming",
+      "wn_senses": []
+    },
+    { 
+      "word": "fabricated",
+      "wn_senses": []
+    },
+    { 
+      "word": "fake",
+      "wn_senses": [2]
+    },
+    { 
+      "word": "fictional",
+      "wn_senses": [2]
+    },
+    { 
+      "word": "ficticious",
+      "wn_senses": []
+    },
+    { 
+      "word": "imaginary",
+      "wn_senses": []
+    },
+    { 
+      "word": "mythical",
+      "wn_senses": []
+    },
+    { 
+      "word": "phony",
+      "wn_senses": []
+    },
+    { 
+      "word": "false",
+      "wn_senses": [1, 2, 3, 4, 5, 6, 7, 9]
+    },
+    { 
+      "word": "artificial",
+      "wn_senses": [1, 3]
+    },
+    { 
+      "word": "erroneous",
+      "wn_senses": []
+    },
+    { 
+      "word": "mistaken",
+      "wn_senses": []
+    },
+    { 
+      "word": "mock",
+      "wn_senses": []
+    },
+    { 
+      "word": "pseudo-",
+      "wn_senses": []
+    },
+    { 
+      "word": "simulated",
+      "wn_senses": []
+    },
+    { 
+      "word": "spurious",
+      "wn_senses": [1, 2, 4]
+    },
+    { 
+      "word": "unsuccessful",
+      "wn_senses": []
+    },
+    { 
+      "word": "counterfeit",
+      "wn_senses": []
+    },
+    { 
+      "word": "deputy",
+      "wn_senses": [4]
+    },
+    { 
+      "word": "faulty",
+      "wn_senses": []
+    },
+    { 
+      "word": "virtual",
+      "wn_senses": []
+    },
+    { 
+      "word": "erstwhile",
+      "wn_senses": []
+    },
+    { 
+      "word": "ex-",
+      "wn_senses": []
+    },
+    { 
+      "word": "expected",
+      "wn_senses": []
+    },
+    { 
+      "word": "former",
+      "wn_senses": [2, 3, 4]
+    },
+    { 
+      "word": "future",
+      "wn_senses": [1]
+    },
+    { 
+      "word": "historic",
+      "wn_senses": [1]
+    },
+    { 
+      "word": "onetime",
+      "wn_senses": []
+    },
+    { 
+      "word": "past",
+      "wn_senses": [2]
+    },
+    { 
+      "word": "proposed",
+      "wn_senses": []
+    }
+  ]
+}

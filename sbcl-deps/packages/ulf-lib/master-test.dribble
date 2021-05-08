@@ -1,0 +1,57 @@
+
+[J* [A[J* [1m((B[mdribble "master-test.dribble"[1m)(B[m[A[J* [1m((B[mrun-tests[1m)(B[m[J* (run-tests)
+
+TTT-P-ARG-MOD: 2 assertions passed, 0 failed.
+
+BASIC-COMPOSE: 5 assertions passed, 0 failed.
+
+BASIC-MACRO-COMPOSE: 14 assertions passed, 0 failed.
+
+TENSE-COMPOSE: 1 assertions passed, 0 failed.
+
++PREDS-COMPOSE: 1 assertions passed, 0 failed.
+
+QT-ATTR-COMPOSE: 7 assertions passed, 0 failed.
+
+AUX-COMPOSE: 6 assertions passed, 0 failed.
+
+P-ARG-COMPOSE: 11 assertions passed, 0 failed.
+
+ | Failed Form: (STRING-FROM-COMPOSE-TYPES '? '(I.PRO ((PAST GO.V) THERE.PRO))
+                                           :EXT 'EXTENDED)
+ | Expected "(S=>2)_T" 
+ | but saw "(S=>2)"; "right"; ("((S=>2)=>(S=>2))"
+                            "{(S=>2)_T|{(D=>(S=>2))_V_T|{{(D=>(D=>(S=>2)))_V_T|((D=>(S=>2))=>(D=>(S=>2)))_V_T}|{({D|(D=>(S=>2))}^2=>(D=>(S=>2)))_V_T|({D|(D=>(S=>2))}^3=>(D=>(S=>2)))_V_T}}}}")
+ |
+ | Failed Form: (STRING-FROM-COMPOSE-TYPES '! '(I.PRO ((PAST GO.V) THERE.PRO))
+                                           :EXT 'EXTENDED)
+ | Expected "(S=>2)_T" 
+ | but saw "(S=>2)"; "right"; ("((S=>2)=>(S=>2))"
+                            "{(S=>2)_T|{(D=>(S=>2))_V_T|{{(D=>(D=>(S=>2)))_V_T|((D=>(S=>2))=>(D=>(S=>2)))_V_T}|{({D|(D=>(S=>2))}^2=>(D=>(S=>2)))_V_T|({D|(D=>(S=>2))}^3=>(D=>(S=>2)))_V_T}}}}")
+ |
+SENTENTIAL-PUNCTUATION-COMPOSE: 4 assertions passed, 2 failed.
+
+ | Failed Form: (STRING-FROM-COMPOSE-TYPES 'RIGHT.MOD-A
+                                           '(BEFORE.PS
+                                             (I.PRO ((PAST MOVE.V) IT.PRO))))
+ | Expected "((S=>2)=>((S=>2)=>(S=>2)))" but saw NIL; NIL; NIL
+ |
+COMP-P-ARG-MOD: 1 assertions passed, 1 failed.
+
+SUBJECT-VP: 8 assertions passed, 0 failed.
+
+FREE-SENT-MOD: 165 assertions passed, 0 failed.
+
+ITAUX: 6 assertions passed, 0 failed.
+
+Unit Test Summary
+ | 234 assertions total
+ | 231 passed
+ | 3 failed
+ | 0 execution errors
+ | 0 missing tests
+
+#<TEST-RESULTS-DB Total(234) Passed(231) Failed(3) Errors(0)>
+
+[J* ([J(d[Jdr[Jri[Jib[Jbb[Jbl[Jle[Je)[J* [1m((B[mdribble[1m)(B[m[J* (dribble)
+

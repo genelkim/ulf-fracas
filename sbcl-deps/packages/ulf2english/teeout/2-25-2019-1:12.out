@@ -1,0 +1,888 @@
+International Allegro CL Enterprise Edition
+8.2 [Linux (x86)] (Feb 2, 2016 4:01)
+Copyright (C) 1985-2010, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+This development copy of Allegro CL is licensed to:
+   [3726] University of Rochester
+
+;   Loading /u/gkim21/quicklisp/asdf.lisp
+;   Autoloading for package "EXCL.OSI":
+;     Fast loading /home/vax1/p3/lisp/acl/linux/acl82/code/osi.fasl
+;       Fast loading from bundle code/fileutil.fasl.
+;     Autoloading for package "REGEXP":
+;       Fast loading from bundle code/regexp2-s.fasl.
+;     Autoloading for REGEXP::MAKE-VM-CLOSURE:
+;       Fast loading /home/vax1/p3/lisp/acl/linux/acl82/code/regexp2.fasl
+;         Fast loading /home/vax1/p3/lisp/acl/linux/acl82/code/yacc.fasl
+;   Loading /u/gkim21/quicklisp/setup.lisp
+;;; Installing streamc patch, version 2.
+;; Optimization settings: safety 1, space 1, speed 1, debug 2.
+;; For a complete description of all compiler switches given the current optimization settings evaluate (EXPLAIN-COMPILER-SETTINGS).
+CL-USER(1): ; Loading /home/vax8/u60/gkim21/research/ulf2english/runtest.lisp
+;   Loading /home/vax8/u60/gkim21/research/ulf2english/load.lisp
+;     Loading /home/vax8/u60/gkim21/research/ulf2english/ulf2english.asd
+;     Loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/ttt.asd
+;     Loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/util.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/alexandria.asd
+;     Loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/cl-ppcre.asd
+Warning: System definition file #P"/home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/cl-ppcre.asd" contains definition for system "cl-ppcre-test". Please only define "cl-ppcre" and secondary systems with a name starting with "cl-ppcre/" (e.g. "cl-ppcre/test") in that file.
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/cl-mathstats.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/metatilities-base.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/cl-containers.asd
+;       Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/asdf-system-connections-20170124-git/asdf-system-connections.asd
+;       Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/asdf-system-connections-20170124-git/dev/asdf-system-connections.fasl
+;     Loading /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/ulf-lib.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-strings-20180131-git/cl-strings.asd
+Warning: System definition file #P"/home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-strings-20180131-git/cl-strings.asd" contains definition for system "cl-strings-tests". Please only define "cl-strings" and secondary systems with a name starting with "cl-strings/" (e.g. "cl-strings/test") in that file.
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/inferior-shell-20160929-git/inferior-shell.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/optima.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/closer-mop-20180711-git/closer-mop.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/fare-utils.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/fare-quasiquote-extras.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/fare-quasiquote-optima.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/fare-quasiquote.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/fare-quasiquote-readtable.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/named-readtables-20170124-git/named-readtables.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-mop-20151218-git/fare-mop.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/drakma.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/puri-20180228-git/puri.asd
+Warning: System definition file #P"/home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/puri-20180228-git/puri.asd" contains definition for system "puri-tests". Please only define "puri" and secondary systems with a name starting with "puri/" (e.g. "puri/test") in that file.
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/cl-base64.asd
+Warning: System definition file #P"/home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/cl-base64.asd" contains definition for system "cl-base64-tests". Please only define "cl-base64" and secondary systems with a name starting with "cl-base64/" (e.g. "cl-base64/test") in that file.
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/chunga.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/trivial-gray-streams-20140826-git/trivial-gray-streams.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/flexi-streams.asd
+Warning: System definition file #P"/home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/flexi-streams.asd" contains definition for system "flexi-streams-test". Please only define "flexi-streams" and secondary systems with a name starting with "flexi-streams/" (e.g. "flexi-streams/test") in that file.
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/chipz.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/usocket-0.7.0.1/usocket.asd
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/split-sequence-1.2/split-sequence.asd
+Warning: System definition file #P"/home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/split-sequence-1.2/split-sequence.asd" contains definition for system "split-sequence-tests". Please only define "split-sequence" and secondary systems with a name starting with "split-sequence/" (e.g. "split-sequence/test") in that file.
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/cl-json.asd
+Warning: System definition file #P"/home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/cl-json.asd" contains definition for system "cl-json.test". Please only define "cl-json" and secondary systems with a name starting with "cl-json/" (e.g. "cl-json/test") in that file.
+;     Loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/lisp-unit-20170124-git/lisp-unit.asd
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/operators.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/expressions.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/keys.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/bindings.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/trees.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/patterns.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/operators/unrestricted-seq.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/operators/restricted-seq.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/operators/fpseq-gen.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/operators/descendant.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/operators/vertical.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/operators/literal.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/sticky.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/predicates.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/template-construction.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/transductions.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/tests.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/util.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/process-tb.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/ttt/src/search-tb.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/definitions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/binding.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/strings.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/conditions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/symbols.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/macros.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/functions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/lists.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/types.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/io.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/hash-tables.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/control-flow.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/arrays.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/sequences.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/numbers.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/alexandria-20170227-git/features.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/specials.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/util.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/errors.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/charset.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/charmap.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/chartest.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/lexer.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/parser.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/regex-class.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/regex-class-util.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/convert.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/optimize.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/closures.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/repetition-closures.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/scanner.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/extlib/cl-ppcre-2.0.4/api.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/api.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/l0-utils.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/l0-strings.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/l0-macros.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/l0-arrays.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/l0-clos.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/l0-files.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/l0-time.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/set-equal.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/generic-lisp.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/generic-interface.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/defclass-star.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/metatilities-base-20170403-git/dev/copy-file.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/conditions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/container-api.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/containers.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/basic-operations.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/queues.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/stacks.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/vectors.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/trees.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/lists.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/bags-and-sets.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/ring-buffers.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/miscellaneous.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/associative.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/compatibility.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/quad-tree.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/heaps.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/container-mixins.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/union-find-container.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/package-container.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/iterator-api.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/iterators.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/file-iterators.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/dynamic-classes.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-containers-20170403-git/dev/dynamic-class-defs.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/api.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/parameters.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/math-utilities.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/class-defs.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/definitions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/binary-math.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/matrices.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/matrix-fns.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/density-fns.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/svd.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/utilities.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/define-statistical-fun.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/basic-statistics.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/smoothing.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/correlation-regression.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-mathstats-20140713-git/dev/anova.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/list.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/io.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/string.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/sexpr.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/ttt.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/symbol.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/lore-util.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/lang.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/reachability-indexing.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/hashtable.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/function.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/cl-util/stats.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-strings-20180131-git/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-strings-20180131-git/cl-strings.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/suffix.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/ttt-lexical-patterns.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/ttt-phrasal-patterns.fasl
+Warning: IN-ULF-LIB, :OPERATOR was defined in /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/ttt-lexical-patterns.lisp and is now being defined in
+         /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/ttt-phrasal-patterns.lisp
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/macro.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/mylisplibs/ulf-lib/preprocess.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/closer-mop-20180711-git/closer-mop-packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/closer-mop-20180711-git/closer-mop-shared.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/closer-mop-20180711-git/closer-allegro.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/util.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/runtime.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/pattern.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/fail.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/compiler.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/match.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/optima-20150709-git/src/extra.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/utils.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/character-classes.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/strings.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/symbols.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/macros.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/lists.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/objects.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/streams.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/hash-tables.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/more-strings.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/base/parse-cl-syntax.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/filesystem/pathnames.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/filesystem/files.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/filesystem/atomic.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/stateful/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/stateful/container.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-utils-20170124-git/stateful/dllist.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/quasiquote.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/pp-quasiquote.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/fare-quasiquote-optima.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/named-readtables-20170124-git/src/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/named-readtables-20170124-git/src/utils.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/named-readtables-20170124-git/src/define-api.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/named-readtables-20170124-git/src/cruft.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/named-readtables-20170124-git/src/named-readtables.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-quasiquote-20171130-git/quasiquote-readtable.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-mop-20151218-git/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/fare-mop-20151218-git/utilities.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/inferior-shell-20160929-git/pkgdcl.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/inferior-shell-20160929-git/process-spec.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/inferior-shell-20160929-git/utilities.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/inferior-shell-20160929-git/macros.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/inferior-shell-20160929-git/host.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/inferior-shell-20160929-git/run.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/puri-20180228-git/src.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/package.fasl
+Error: about to bind CHAR to NIL, which is not of type CHARACTER.
+  [condition type: TYPE-ERROR]
+
+Restart actions (select using :continue):
+  0: store the value anyway.
+  1: retry the load of /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/package.fasl
+  2: skip loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/package.fasl
+  3: recompile /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/package.lisp
+  4: Recompile package and try loading it again
+  5: Retry loading FASL for #<CL-SOURCE-FILE "cl-base64" "package">.
+  6: Continue, treating loading FASL for #<CL-SOURCE-FILE "cl-base64" "package"> as having been successful.
+  7: Retry ASDF operation.
+  8: Retry ASDF operation after resetting the configuration.
+  9: Retry ASDF operation.
+ 10: Retry ASDF operation after resetting the configuration.
+ 11: retry the load of load
+ 12: skip loading load
+ 13: recompile /home/vax8/u60/gkim21/research/ulf2english/load.lisp
+ 14: retry the load of runtest
+ 15: skip loading runtest
+ 16: recompile /home/vax8/u60/gkim21/research/ulf2english/runtest.lisp
+ 17: Return to Top Level (an "abort" restart).
+ 18: Abort entirely from this (lisp) process.
+
+[changing package from "COMMON-LISP-USER" to "CL-BASE64"]
+[1] BASE64(2): Error: about to bind CHAR to NIL, which is not of type CHARACTER.
+  [condition type: TYPE-ERROR]
+
+Restart actions (select using :continue):
+  0: store the value anyway.
+  1: retry the load of /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/package.fasl
+  2: skip loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/package.fasl
+  3: recompile /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/package.lisp
+  4: Recompile package and try loading it again
+  5: Retry loading FASL for #<CL-SOURCE-FILE "cl-base64" "package">.
+  6: Continue, treating loading FASL for #<CL-SOURCE-FILE "cl-base64" "package"> as having been successful.
+  7: Retry ASDF operation.
+  8: Retry ASDF operation after resetting the configuration.
+  9: Retry ASDF operation.
+ 10: Retry ASDF operation after resetting the configuration.
+ 11: retry the load of load
+ 12: skip loading load
+ 13: recompile /home/vax8/u60/gkim21/research/ulf2english/load.lisp
+ 14: retry the load of runtest
+ 15: skip loading runtest
+ 16: recompile /home/vax8/u60/gkim21/research/ulf2english/runtest.lisp
+ 17: Return to Top Level (an "abort" restart).
+ 18: Abort entirely from this (lisp) process.
+[1] BASE64(3): ;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/encode.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-base64-20150923-git/decode.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/trivial-gray-streams-20140826-git/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/trivial-gray-streams-20140826-git/streams.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/specials.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/util.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/known-words.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/conditions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/read.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/streams.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/input.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chunga-20180131-git/output.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/mapping.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/ascii.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/koi8-r.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/iso-8859.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/code-pages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/specials.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/util.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/conditions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/external-format.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/length.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/encode.fasl
+21058000 bytes have been tenured, next gc will be global.
+See the documentation for variable EXCL:*GLOBAL-GC-BEHAVIOR* for more information.
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/decode.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/in-memory.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/stream.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/output.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/input.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/io.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/flexi-streams-1.0.15/strings.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/constants.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/types-and-tables.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/crc32.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/adler32.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/conditions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/dstate.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/inflate-state.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/gzip.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/zlib.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/inflate.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/bzip2.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/decompress.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/chipz-20180328-git/stream.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/split-sequence-1.2/split-sequence.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/usocket-0.7.0.1/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/usocket-0.7.0.1/usocket.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/usocket-0.7.0.1/condition.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/usocket-0.7.0.1/backend/allegro.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/usocket-0.7.0.1/option.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/packages.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/specials.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/conditions.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/util.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/read.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/cookies.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/encoding.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/drakma-v2.0.4/request.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/common.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/objects.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/camel-case.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/decoder.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/encoder.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/utils.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/cl-json-20141217-git/src/json-rpc.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/lisp-unit-20170124-git/lisp-unit.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/lisp-unit-20170124-git/extensions/rational.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/lisp-unit-20170124-git/extensions/floating-point.fasl
+;     Fast loading /home/vax8/u60/gkim21/quicklisp/dists/quicklisp/software/lisp-unit-20170124-git/extensions/test-anything-protocol.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/ulf2english/package.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/ulf2english/pattern-en.fasl
+;     Fast loading /home/vax8/u60/gkim21/research/ulf2english/ulf2english.fasl
+;   Loading /home/vax8/u60/gkim21/research/ulf2english/test/blocks-world-qa.lisp
+;   Loading /home/vax8/u60/gkim21/research/ulf2english/test/bugfixes.lisp
+; Autoloading for ACL-SOCKET:CONFIGURE-DNS:
+;   Fast loading /home/vax1/p3/lisp/acl/linux/acl82/code/acldns.001
+;;; Installing acldns patch, version 1.
+BWQA-GK27: 1 assertions passed, 0 failed.
+
+BWQA-GK15: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Does the SRI block have anything on it?" but saw "Do the block have anything on it?"
+ | SENTENCE => "Does the SRI block have anything on it?"
+ | (ULF2ENGLISH ULF) => "Do the block have anything on it?"
+ | ULF => (((PRES DO.AUX-S) (THE.D (SRI BLOCK.N)) (HAVE.V ANYTHING.PRO (ON.P IT.PRO))) ?)
+ |
+BWQA-GK13: 0 assertions passed, 1 failed.
+
+BWQA-V15: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Are there two blocks that are not near each other?" but saw "Are there two blocks that not near each other?"
+ | SENTENCE => "Are there two blocks that are not near each other?"
+ | (ULF2ENGLISH ULF) => "Are there two blocks that not near each other?"
+ | ULF => (((PRES BE.V) THERE.PRO (TWO.D (N+PREDS (PLUR BLOCK.N) (THAT.REL ((PRES BE) NOT.ADV-S (NEAR.P (EACH.D (OTHER.N {REF}.N)))))))) ?)
+ |
+BWQA-V14: 0 assertions passed, 1 failed.
+
+BWQA-GK25: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What are the blocks that are not on top of any other block?" but saw "What is the blocks that be not on top of any other block?"
+ | SENTENCE => "What are the blocks that are not on top of any other block?"
+ | (ULF2ENGLISH ULF) => "What is the blocks that be not on top of any other block?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (N+PREDS (PLUR BLOCK.N) (THAT.REL ((PRES BE.V) NOT.ADV-S (ON.P (K (N+PREDS TOP.N (OF.P (ANY.D (OTHER.A BLOCK.N))))))))))))) ?)
+ |
+BWQA-GP72: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Does any row contain a red block?" but saw "Do any row contain a red block?"
+ | SENTENCE => "Does any row contain a red block?"
+ | (ULF2ENGLISH ULF) => "Do any row contain a red block?"
+ | ULF => (((PRES DO.AUX-S) (ANY.D ROW.N) (CONTAIN.V (A.D (RED.A BLOCK.N)))) ?)
+ |
+BWQA-GK10: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What are the blocks behind the Nvidia block?" but saw "What is the blocks behind the Nvidia block?"
+ | SENTENCE => "What are the blocks behind the Nvidia block?"
+ | (ULF2ENGLISH ULF) => "What is the blocks behind the Nvidia block?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (N+PREDS (PLUR BLOCK.N) (BEHIND.P (THE.D (|Nvidia.N| BLOCK.N)))))))) ?)
+ |
+BWQA-GP78: 0 assertions passed, 1 failed.
+
+BWQA-V8: 1 assertions passed, 0 failed.
+
+BWQA-GK43: 1 assertions passed, 0 failed.
+
+BWQA-V9: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Where is the shortest stack?" but saw "Where is the short stack?"
+ | SENTENCE => "Where is the shortest stack?"
+ | (ULF2ENGLISH ULF) => "Where is the short stack?"
+ | ULF => ((SUB WHERE.A ((PRES BE.V) (THE.D ((MOST SHORT.A) STACK.N)) *H)) ?)
+ |
+BWQA-GK44: 0 assertions passed, 1 failed.
+
+BWQA-GK9: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color is the block that is near the leftmost red block?" but saw "What color is the block that is near the left red block."
+ | SENTENCE => "What color is the block that is near the leftmost red block?"
+ | (ULF2ENGLISH ULF) => "What color is the block that is near the left red block."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS BLOCK.N (THAT.REL ((PRES BE.V) (NEAR.P (THE.D ((MOST LEFT.A) (RED.A BLOCK.N)))))))) *H) ?))
+ |
+BWQA-V17: 0 assertions passed, 1 failed.
+
+BWQA-GP62: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "How many blocks are in the tallest stack?" but saw "How many blocks are in the tall stack?"
+ | SENTENCE => "How many blocks are in the tallest stack?"
+ | (ULF2ENGLISH ULF) => "How many blocks are in the tall stack?"
+ | ULF => (((K ((HOW.MOD-A MANY.A) (PLUR BLOCK.N))) ((PRES BE.V) (IN.P (THE.D (MOST-N TALL.A STACK.N))))) ?)
+ |
+BWQA-GP65: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "How many blocks are in the longest row?" but saw "How many blocks are in the long row?"
+ | SENTENCE => "How many blocks are in the longest row?"
+ | (ULF2ENGLISH ULF) => "How many blocks are in the long row?"
+ | ULF => (((K ((HOW.MOD-A MANY.A) (PLUR BLOCK.N))) ((PRES BE.V) (IN.P (THE.D (MOST-N LONG.A ROW.N))))) ?)
+ |
+BWQA-GP66: 0 assertions passed, 1 failed.
+
+BWQA-GK40: 1 assertions passed, 0 failed.
+
+BWQA-GK34: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What is the block on top of the tallest stack?" but saw "What is the block on top of the tall stack?"
+ | SENTENCE => "What is the block on top of the tallest stack?"
+ | (ULF2ENGLISH ULF) => "What is the block on top of the tall stack?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (N+PREDS BLOCK.N (ON.P (K (N+PREDS TOP.N (OF.P (THE.D (MOST-N TALL.A STACK.N))))))))))) ?)
+ |
+BWQA-GP77: 0 assertions passed, 1 failed.
+
+BWQA-GK28: 1 assertions passed, 0 failed.
+
+BWQA-GP82: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What block is halfway on top of any other block?" but saw "What block be halfway on top of any other block?"
+ | SENTENCE => "What block is halfway on top of any other block?"
+ | (ULF2ENGLISH ULF) => "What block be halfway on top of any other block?"
+ | ULF => (((WHAT.D BLOCK.N) ((PRES BE.V) (HALFWAY.ADV-A (ON.P (K (N+PREDS TOP.N (OF.P (ANY.D (OTHER.A BLOCK.N))))))))) ?)
+ |
+BWQA-GP84: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Which red blocks are directly on the table?" but saw "Which red blocks be directly on the table?"
+ | SENTENCE => "Which red blocks are directly on the table?"
+ | (ULF2ENGLISH ULF) => "Which red blocks be directly on the table?"
+ | ULF => (((WHICH.D (RED.A (PLUR BLOCK.N))) ((PRES BE.V) (DIRECTLY.ADV-A (ON.P (THE.D TABLE.N))))) ?)
+ |
+BWQA-GP91: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What are the blocks on top of the Toyota block?" but saw "What is the blocks on top of the Toyota block?"
+ | SENTENCE => "What are the blocks on top of the Toyota block?"
+ | (ULF2ENGLISH ULF) => "What is the blocks on top of the Toyota block?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (N+PREDS (PLUR BLOCK.N) (ON.P (K (N+PREDS TOP.N (OF.P (THE.D (|Toyota.N| BLOCK.N))))))))))) ?)
+ |
+BWQA-GP71: 0 assertions passed, 1 failed.
+
+BWQA-GP67: 1 assertions passed, 0 failed.
+
+BWQA-GK29: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What is the height of the leftmost stack?" but saw "What is the height of the left stack?"
+ | SENTENCE => "What is the height of the leftmost stack?"
+ | (ULF2ENGLISH ULF) => "What is the height of the left stack?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (HEIGHT-OF.N (THE.D ((MOST LEFT.A) STACK.N))))))) ?)
+ |
+BWQA-V21: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Is there a block between the McDonalds and the SRI blocks?" but saw "Is there a block between the McDonalds and the blocks?"
+ | SENTENCE => "Is there a block between the McDonalds and the SRI blocks?"
+ | (ULF2ENGLISH ULF) => "Is there a block between the McDonalds and the blocks?"
+ | ULF => (((PRES BE.V) THERE.PRO (A.D (N+PREDS BLOCK.N (BETWEEN.P ((THE.D (|McDonalds| (PLUR {BLOCK}.N))) AND.CC (THE.D (SRI (PLUR BLOCK.N)))))))) ?)
+ |
+BWQA-GK22: 0 assertions passed, 1 failed.
+
+BWQA-V4: 1 assertions passed, 0 failed.
+
+BWQA-V10: 1 assertions passed, 0 failed.
+
+BWQA-V1: 1 assertions passed, 0 failed.
+
+BWQA-GK35: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Which block is the highest?" but saw "Which block is the high?"
+ | SENTENCE => "Which block is the highest?"
+ | (ULF2ENGLISH ULF) => "Which block is the high?"
+ | ULF => (((WHICH.D BLOCK.N) ((PRES BE.V) (= (THE.D (MOST-N HIGH.A {BLOCK}.N))))) ?)
+ |
+BWQA-GP80: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Is there a shortest stack on the table?" but saw "Is there a short stack on the table?"
+ | SENTENCE => "Is there a shortest stack on the table?"
+ | (ULF2ENGLISH ULF) => "Is there a short stack on the table?"
+ | ULF => (((PRES BE.V) THERE.PRO (A.D (N+PREDS ((MOST SHORT.A) STACK.N) (ON.P (THE.D TABLE.N))))) ?)
+ |
+BWQA-V7: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Which red blocks are directly on the table?" but saw "Which red blocks be directly on the table?"
+ | SENTENCE => "Which red blocks are directly on the table?"
+ | (ULF2ENGLISH ULF) => "Which red blocks be directly on the table?"
+ | ULF => (((WHICH.D (RED.A (PLUR BLOCK.N))) ((PRES BE.V) DIRECTLY.MOD-A (ON.P (THE.D TABLE.N)))) ?)
+ |
+BWQA-GK38: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What is the farthest block from the center of the table?" but saw "What is the far block from the center of the table?"
+ | SENTENCE => "What is the farthest block from the center of the table?"
+ | (ULF2ENGLISH ULF) => "What is the far block from the center of the table?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (THE.D (REP (((MOST FAR.A) *P) BLOCK.N) (FROM.P (THE.D (CENTER-OF.N (THE.D TABLE.N)))))))) ?)
+ |
+BWQA-GK33: 0 assertions passed, 1 failed.
+
+BWQA-GK36: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Does the Toyota block face the Nvidia block?" but saw "Do the Toyota block face the Nvidia block?"
+ | SENTENCE => "Does the Toyota block face the Nvidia block?"
+ | (ULF2ENGLISH ULF) => "Do the Toyota block face the Nvidia block?"
+ | ULF => (((PRES DO.AUX-S) (THE.D (|Toyota| BLOCK.N)) (FACE.V (THE.D (|Nvidia| BLOCK.N)))) ?)
+ |
+BWQA-GK6: 0 assertions passed, 1 failed.
+
+BWQA-GK1: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Are all the red blocks near the Nvidia block?" but saw "Is all the red blocks near the Nvidia block?"
+ | SENTENCE => "Are all the red blocks near the Nvidia block?"
+ | (ULF2ENGLISH ULF) => "Is all the red blocks near the Nvidia block?"
+ | ULF => (((PRES BE.V) (ALL.D ({OF}.P (THE.D (RED.A (PLUR BLOCK.N))))) (NEAR.P (THE.D (|Nvidia| BLOCK.N)))) ?)
+ |
+BWQA-GK18: 0 assertions passed, 1 failed.
+
+BWQA-GK3: 1 assertions passed, 0 failed.
+
+BWQA-GK20: 1 assertions passed, 0 failed.
+
+BWQA-GP63: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What are the blocks near the corners of the table?" but saw "What is the block near the corner of the table?"
+ | SENTENCE => "What are the blocks near the corners of the table?"
+ | (ULF2ENGLISH ULF) => "What is the block near the corner of the table?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (PLUR (N+PREDS BLOCK.N (NEAR.P (THE.D (PLUR (N+PREDS CORNER.N (OF.P (THE.D TABLE.N)))))))))))) ?)
+ |
+BWQA-GP75: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Where is the highest block?" but saw "Where is the high block?"
+ | SENTENCE => "Where is the highest block?"
+ | (ULF2ENGLISH ULF) => "Where is the high block?"
+ | ULF => ((SUB WHERE.A ((PRES BE.V) (THE.D ((MOST HIGH.A) BLOCK.N)) *H)) ?)
+ |
+BWQA-GK45: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What is the block that is at the rightmost red block?" but saw "What is the block that is at the right red block?"
+ | SENTENCE => "What is the block that is at the rightmost red block?"
+ | (ULF2ENGLISH ULF) => "What is the block that is at the right red block?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (N+PREDS BLOCK.N (THAT.REL ((PRES BE.V) (AT.P (THE.D (MOST-N RIGHT.A (RED.A BLOCK.N))))))))))) ?)
+ |
+BWQA-GP79: 0 assertions passed, 1 failed.
+
+BWQA-GK11: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color is the lowest block of the shortest stack?" but saw "What color be the low block of the short stack."
+ | SENTENCE => "What color is the lowest block of the shortest stack?"
+ | (ULF2ENGLISH ULF) => "What color be the low block of the short stack."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS ((MOST LOW.A) BLOCK.N) (OF.P (THE.D ((MOST SHORT.A) STACK.N)))))) *H) ?)
+ |
+BWQA-V26: 0 assertions passed, 1 failed.
+
+BWQA-GP69: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Which block is side by side with the Texaco block?" but saw "Which block be side by side with the Texaco block?"
+ | SENTENCE => "Which block is side by side with the Texaco block?"
+ | (ULF2ENGLISH ULF) => "Which block be side by side with the Texaco block?"
+ | ULF => (((WHICH.D BLOCK.N) ((PRES BE.V) (SIDE-BY-SIDE.ADV-A (WITH.P (THE.D (|Texaco.N| BLOCK.N)))))) ?)
+ |
+BWQA-GP85: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Is the SRI block fully on top of any red block?" but saw "Is the block fully on top of any red block?"
+ | SENTENCE => "Is the SRI block fully on top of any red block?"
+ | (ULF2ENGLISH ULF) => "Is the block fully on top of any red block?"
+ | ULF => (((PRES BE.V) (THE.D (SRI BLOCK.N)) (FULLY.MOD-A (ON.P ({THE}.D (TOP-OF.N (ANY.D (RED.A BLOCK.N))))))) ?)
+ |
+BWQA-GK5: 0 assertions passed, 1 failed.
+
+BWQA-GK12: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color are the blocks near to the Toyota block?" but saw "What color are the blocks near to the Toyota block."
+ | SENTENCE => "What color are the blocks near to the Toyota block?"
+ | (ULF2ENGLISH ULF) => "What color are the blocks near to the Toyota block."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS (PLUR BLOCK.N) (NEAR.A (TO.P-ARG (THE.D (|Toyota| BLOCK.N)))))) *H) ?))
+ |
+BWQA-V18: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Which block is very close to the front edge of the table?" but saw "Which block be very close to the front edge of the table?"
+ | SENTENCE => "Which block is very close to the front edge of the table?"
+ | (ULF2ENGLISH ULF) => "Which block be very close to the front edge of the table?"
+ | ULF => (((WHICH.D BLOCK.N) ((PRES BE.V) ((ADV-A (VERY.MOD-A CLOSE.A)) (TO.P (THE.D (FRONT.A (N+PREDS EDGE.N (OF.P (THE.D TABLE.N))))))))) ?)
+ |
+BWQA-GP88: 0 assertions passed, 1 failed.
+
+BWQA-GP89: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What is the length of the longest row?" but saw "What is the length of the long row?"
+ | SENTENCE => "What is the length of the longest row?"
+ | (ULF2ENGLISH ULF) => "What is the length of the long row?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (LENGTH-OF.N (THE.D ((MOST LONG.A) ROW.N))))))) ?)
+ |
+BWQA-V22: 0 assertions passed, 1 failed.
+
+BWQA-GK26: 1 assertions passed, 0 failed.
+
+BWQA-GP68: 1 assertions passed, 0 failed.
+
+BWQA-V11: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color is the block to the left of the Nvidia block?" but saw "What color is the block to the left of the Nvidia block."
+ | SENTENCE => "What color is the block to the left of the Nvidia block?"
+ | (ULF2ENGLISH ULF) => "What color is the block to the left of the Nvidia block."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS BLOCK.N (TO.P (THE.D (LEFT-OF.N (THE.D (|Nvidia| BLOCK.N))))))) *H) ?))
+ |
+BWQA-V16: 0 assertions passed, 1 failed.
+
+BWQA-GK19: 1 assertions passed, 0 failed.
+
+BWQA-GK4: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What is the block between the Toyota and the SRI block?" but saw "What is the block between the Toyota and the sri block?"
+ | SENTENCE => "What is the block between the Toyota and the SRI block?"
+ | (ULF2ENGLISH ULF) => "What is the block between the Toyota and the sri block?"
+ | ULF => ((WHAT.PRO ((PRES BE.V) (= (THE.D (N+PREDS BLOCK.N (BETWEEN.P ((THE.D (|Toyota.N| {BLOCK}.N)) AND.CC (THE.D (SRI.N BLOCK.N))))))))) ?)
+ |
+BWQA-GP74: 0 assertions passed, 1 failed.
+
+ | Failed Form: GENERATED
+ | Expected "kenneth nervously watched the woman alarmed by her gun" but saw "kenneth nervously watched the woman alarming by her gun"
+ | EXPECTED => "kenneth nervously watched the woman alarmed by her gun"
+ | GENERATED => "kenneth nervously watched the woman alarming by her gun"
+ | ULF => (|Kenneth| (NERVOUSLY.ADV-A ((PAST WATCH.V) (THE.D WOMAN.N) (ADV-A ((PASV ALARM.V) (BY.P-ARG (HER.D GUN.N)))))))
+ |
+ | Failed Form: GENERATED
+ | Expected "we’re required to submit a carefully written notice" but saw "we be required to submit a carefully writing notice"
+ | EXPECTED => "we’re required to submit a carefully written notice"
+ | GENERATED => "we be required to submit a carefully writing notice"
+ | ULF => (WE.PRO ((PRES (PASV REQUIRE.V)) (TO (SUBMIT.V (A.D ((MOD-N (CAREFULLY.ADV-A (PASV WRITE.V))) NOTICE.N))))))
+ |
+PARTICIPLES-FROM-DOC: 4 assertions passed, 2 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Are there two stacks that are side by side?" but saw "Are there two stacks that is side by side?"
+ | SENTENCE => "Are there two stacks that are side by side?"
+ | (ULF2ENGLISH ULF) => "Are there two stacks that is side by side?"
+ | ULF => (((PRES BE.V) THERE.PRO (TWO.D (N+PREDS (PLUR STACK.N) (THAT.REL ((PRES BE.V) SIDE_BY_SIDE.A))))) ?)
+ |
+BWQA-V6: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Which red block is the closest to the Toyota block?" but saw "Which red block is the close to the Toyota block?"
+ | SENTENCE => "Which red block is the closest to the Toyota block?"
+ | (ULF2ENGLISH ULF) => "Which red block is the close to the Toyota block?"
+ | ULF => (((WHICH.D (RED.A BLOCK.N)) ((PRES BE.V) (THE.D (N+PREDS ({RED}.A {BLOCK}.N) ((MOST CLOSE.A) (MOD-A (TO.P (THE.D (|Toyota| BLOCK.N))))))))) ?)
+ |
+BWQA-GK37: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color is the block close to the front edge of the table?" but saw "What color is the block close to the front edge of the table."
+ | SENTENCE => "What color is the block close to the front edge of the table?"
+ | (ULF2ENGLISH ULF) => "What color is the block close to the front edge of the table."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS BLOCK.N (CLOSE.A (TO.P-ARG (THE.D (FRONT.A (EDGE-OF.N (THE.D TABLE.N)))))))) *H) ?))
+ |
+BWQA-V19: 0 assertions passed, 1 failed.
+
+BWQA-V2: 1 assertions passed, 0 failed.
+
+BWQA-GK24: 1 assertions passed, 0 failed.
+
+BWQA-V12: 1 assertions passed, 0 failed.
+
+BWQA-GP87: 1 assertions passed, 0 failed.
+
+BWQA-GK41: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color is the middle block in the longest row?" but saw "What color is the middle block in the long row."
+ | SENTENCE => "What color is the middle block in the longest row?"
+ | (ULF2ENGLISH ULF) => "What color is the middle block in the long row."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS (MIDDLE.A BLOCK.N) (IN.P (THE.D ((MOST LONG.A) ROW.N))))) *H) ?))
+ |
+BWQA-V24: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color are the blocks near any edge of the table?" but saw "What color are the blocks near any edge of the table."
+ | SENTENCE => "What color are the blocks near any edge of the table?"
+ | (ULF2ENGLISH ULF) => "What color are the blocks near any edge of the table."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS (PLUR BLOCK.N) (NEAR.P (ANY.D (EDGE-OF.N (THE.D TABLE.N)))))) *H) ?))
+ |
+BWQA-V20: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Does the tallest stack have a red block on top?" but saw "Do the tall stack have a red block on top?"
+ | SENTENCE => "Does the tallest stack have a red block on top?"
+ | (ULF2ENGLISH ULF) => "Do the tall stack have a red block on top?"
+ | ULF => (((PRES DO.AUX-S) (THE.D ((MOST TALL.A) STACK.N)) (HAVE.V (A.D (RED.A BLOCK.N)) (ON.P ({THE}.D (TOP-OF.N *REF))))) ?)
+ |
+BWQA-GK7: 0 assertions passed, 1 failed.
+
+BWQA-GK16: 1 assertions passed, 0 failed.
+
+BWQA-GK21: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Which blue block the Nvidia block is not near to?" but saw "Which blue block the Nvidia block be not near to?"
+ | SENTENCE => "Which blue block the Nvidia block is not near to?"
+ | (ULF2ENGLISH ULF) => "Which blue block the Nvidia block be not near to?"
+ | ULF => ((SUB (WHICH.D (BLUE.A BLOCK.N)) ((THE.D (|Nvidia| BLOCK.N)) ((PRES BE.V) NOT (NEAR.A (MOD-A (TO.P *H)))))) ?)
+ |
+BWQA-GK39: 0 assertions passed, 1 failed.
+
+BWQA-GP64: 1 assertions passed, 0 failed.
+
+BWQA-GK17: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What blocks are in the longest row?" but saw "What blocks are in the long row?"
+ | SENTENCE => "What blocks are in the longest row?"
+ | (ULF2ENGLISH ULF) => "What blocks are in the long row?"
+ | ULF => (((WHAT.D (PLUR BLOCK.N)) ((PRES BE.V) (IN.P (THE.D (MOST-N LONG.A ROW.N))))) ?)
+ |
+BWQA-GP83: 0 assertions passed, 1 failed.
+
+BWQA-GP61: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Are the Nvidia and the SRI blocks in the same stack?" but saw "Is the Nvidia and blocks in the same stack?"
+ | SENTENCE => "Are the Nvidia and the SRI blocks in the same stack?"
+ | (ULF2ENGLISH ULF) => "Is the Nvidia and blocks in the same stack?"
+ | ULF => (((PRES BE.V) (THE.D ((|Nvidia| AND.CC SRI) (PLUR BLOCK.N))) (IN.P (THE.D (SAME.A STACK.N)))) ?)
+ |
+BWQA-GK14: 0 assertions passed, 1 failed.
+
+BWQA-GK31: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What blocks are in the longest row?" but saw "What blocks are in the long row?"
+ | SENTENCE => "What blocks are in the longest row?"
+ | (ULF2ENGLISH ULF) => "What blocks are in the long row?"
+ | ULF => (((WHAT.D (PLUR BLOCK.N)) ((PRES BE.V) (IN.P (THE.D ((MOST LONG.A) ROW.N))))) ?)
+ |
+BWQA-GK30: 0 assertions passed, 1 failed.
+
+BWQA-GP81: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Is the McDonalds block on top of the SRI block?" but saw "Is the McDonalds block on top of the block?"
+ | SENTENCE => "Is the McDonalds block on top of the SRI block?"
+ | (ULF2ENGLISH ULF) => "Is the McDonalds block on top of the block?"
+ | ULF => (((PRES BE.V) (THE.D (|McDonalds| BLOCK.N)) (ON.P ({THE}.D (TOP-OF.N (THE.D (SRI BLOCK.N)))))) ?)
+ |
+BWQA-GK2: 0 assertions passed, 1 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What colors are the blocks that are under some blue block?" but saw "What colors are the blocks that is under some blue block."
+ | SENTENCE => "What colors are the blocks that are under some blue block?"
+ | (ULF2ENGLISH ULF) => "What colors are the blocks that is under some blue block."
+ | ULF => (SUB (WHAT.MOD-N (PLUR COLOR.N)) (((PRES BE.V) (THE.D (N+PREDS (PLUR BLOCK.N) (THAT.REL ((PRES BE.V) (UNDER.P (SOME.D (BLUE.N BLOCK.N))))))) *H) ?))
+ |
+BWQA-V25: 0 assertions passed, 1 failed.
+
+BWQA-GK23: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "How do you say 2 in Latin?" but saw "How do you say \" \" in  Latin."
+ | EXPECTED => "How do you say 2 in Latin?"
+ | (ULF2ENGLISH ULF) => "How do you say \" \" in  Latin."
+ | ULF => ((SUB HOW.PQ ((PRES DO.AUX-S) YOU.PRO ((SAY.V (|"| 2 |"|)) (ADV-A (IN.P | Latin|)) *H)) ?))
+ |
+NO-TYPE-ERROR-ON-NUMBER: 1 assertions passed, 1 failed.
+
+BWQA-V13: 1 assertions passed, 0 failed.
+
+BWQA-V3: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "How many blocks are not touching the table?" but saw "How many blocks be not touching the table?"
+ | SENTENCE => "How many blocks are not touching the table?"
+ | (ULF2ENGLISH ULF) => "How many blocks be not touching the table?"
+ | ULF => (((K ((HOW.MOD-A MANY.A) (PLUR BLOCK.N))) ((PRES PROG) NOT.ADV-S (TOUCH.V (THE.D TABLE.N)))) ?)
+ |
+BWQA-GP70: 0 assertions passed, 1 failed.
+
+BWQA-GK32: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "What color is the last block in the leftmost row?" but saw "What color is the last block in the left row."
+ | SENTENCE => "What color is the last block in the leftmost row?"
+ | (ULF2ENGLISH ULF) => "What color is the last block in the left row."
+ | ULF => (SUB (WHAT.MOD-N COLOR.N) (((PRES BE.V) (THE.D (N+PREDS (LAST.A BLOCK.N) (IN.P (THE.D ((MOST LEFT.A) ROW.N))))) *H) ?))
+ |
+BWQA-V27: 0 assertions passed, 1 failed.
+
+BWQA-V5: 1 assertions passed, 0 failed.
+
+ | Failed Form: (ULF2ENGLISH ULF)
+ | Expected "Where is the leftmost red block?" but saw "Where is the left red block?"
+ | SENTENCE => "Where is the leftmost red block?"
+ | (ULF2ENGLISH ULF) => "Where is the left red block?"
+ | ULF => ((SUB WHERE.A ((PRES BE.V) (THE.D ((MOST LEFT.A) (RED.A BLOCK.N))) *H)) ?)
+ |
+BWQA-GK42: 0 assertions passed, 1 failed.
+
+BWQA-V23: 1 assertions passed, 0 failed.
+
+BWQA-GK8: 1 assertions passed, 0 failed.
+
+Unit Test Summary
+ | 107 assertions total
+ | 57 passed
+ | 50 failed
+ | 0 execution errors
+ | 0 missing tests
+
+T
+CL-USER(4): ; killing "Domain Name Server Client"...
+; Exiting
