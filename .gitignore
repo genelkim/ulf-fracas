@@ -1,0 +1,7 @@
+.*.temp
+*.class
+*.fasl
+dynamic-polarity/jars
+
+.*.swp
+.*.swo
